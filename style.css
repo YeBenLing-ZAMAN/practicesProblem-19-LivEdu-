@@ -50,3 +50,14 @@
 .time-filled{
     color: orange;
 }
+
+
+/* instructor-background  */
+
+.instructor-bg{
+    background-image: url(./Image/bg-image/05.png);
+    background-repeat: no-repeat;
+    background-size: 800px 800px;
+    background-color: rgb(99, 97, 97);
+    
+}
