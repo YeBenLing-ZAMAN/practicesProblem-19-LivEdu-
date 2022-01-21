@@ -12,10 +12,10 @@
 }
 
 .header-bannar-section{
-    background-image: url(./Image/angular.svg), url(./Image/figma.svg), url(./Image/science.svg);
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: top right, center center, bottom left;
-    background-size: 100px 100px, 50px 50px, 80px 80px;
+    background-image: url(./Image/angular.svg), url(./Image/uk.svg), url(./Image/science.svg),url(./Image/figma.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: top right, center center, bottom left, top center;
+    background-size: 100px 100px, 50px 50px, 80px 80px , 80px 80px;
     
 }
 
