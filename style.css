@@ -37,3 +37,16 @@
 .over-view-text{
     font-size: 18px;
 }
+
+
+/* card section  */
+.star-filled{
+    color: #F7C32E;
+}
+
+.heart-filled{
+    color: #D6293E;
+}
+.time-filled{
+    color: orange;
+}
