@@ -1,0 +1,39 @@
+
+
+.bannar-title-word{
+    background-image: url(./Image/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 100px 50px;
+    background-position: center top;
+    color: tomato;
+    text-transform: capitalize;
+    font-size: larger;
+    
+}
+
+.header-bannar-section{
+    background-image: url(./Image/angular.svg), url(./Image/figma.svg), url(./Image/science.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top right, center center, bottom left;
+    background-size: 100px 100px, 50px 50px, 80px 80px;
+    
+}
+
+
+.bannar-secation-profile{
+    background-image: url(./Image/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 800px 800px;
+}
+
+
+/* <!-- overview impration of we website section  --> */
+
+.over-view-icon{
+    font-size: 80px;
+}
+
+.over-view-text{
+    font-size: 18px;
+}
