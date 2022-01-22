@@ -255,7 +255,7 @@
         <!-- eita problem ache  -->
         <div style="height: 100px;" class=" container d-flex justify-content-center align-items-center bg-danger py-2">
             <nav aria-label="Page navigation example ">
-                <ul class="pagination justify-content-center">
+                <ul class="pagination justify-content-center m-0">
                     <li class="page-item"><a class="page-link" href="#">Data science</a></li>
                     <li class="page-item"><a class="page-link" href="#">Web development</a></li>
                     <li class="page-item"><a class="page-link" href="#">App development</a></li>
@@ -844,14 +844,16 @@
     <section class="container-fluid">
 
         <div class="container">
-            <div class="row g-2 align-items-center">
-                <!-- student and teachers reviews -->
-                <div class="col-7">
+            <!-- feeds back section -->
+            <div class="row g-2 align-items-center d-flex ">
+                <!-- student and teachers reviews and right section-->
+                <!-- using order for responsive review -->
+                <div class="col-xl-7 col-md-6 col-sm-12 order-lg-1 order-md-2 order-sm-2 order-2">
                     <div class="p-3 border bg-light">
                         <div class="row">
                             <div class="row g-4">
                                 <!-- left review -->
-                                <div class="col-7">
+                                <div class="col-12 col-lg-7">
                                     <!-- cotain 2 div -->
                                     <div class="">
                                         <!-- top div -->
@@ -870,8 +872,8 @@
                                             <p class="fw-bold mt-3">Carolyn Ortiz</p>
                                         </div>
                                         <!-- down div %% all rating part -->
-                                        <div
-                                            class="text-center w-50 float-end bg-danger p-3 border shadow-lg rounded-3">
+                                        <div class="text-center w-50 float-end bg-danger p-3 border shadow-lg rounded-3 d-lg-block d-none">
+                                            <!-- lg-display te show korbe but small drives ee show korbe na -->
                                             <h3>4.5/5.0</h3>
                                             <div>
                                                 <i class="fas fa-star star-filled"></i>
@@ -885,34 +887,34 @@
                                     </div>
                                 </div>
                                 <!-- right side review -->
-                                <div class="col-5">
+                                <div class="col-12 col-lg-5">
                                     <!-- total left side -->
                                     <div class="">
                                         <!-- top part and mentors section-->
-                                        <div class="p-3 border bg-info shadow-lg rounded-3">
+                                        <div class="p-3 border bg-info shadow-lg rounded-3 d-lg-block d-none">
                                             <h2>100+ Verified Mentore</h2>
                                             <!-- mentor one -->
                                             <div class="d-flex align-items-center ">
-                                                <img src="./Image/profile-photo/02.jpg" width="50px" height="50px"
+                                                <img src="./Image/profile-photo/02.jpg" width="45px" height="45px"
                                                     alt="">
                                                 <div class="ms-2">
-                                                    <h5>Lori Stevens <br> <small> Tutor of physic </small> </h5>
+                                                    <p class="fw-bold m-0">Lori Stevens <br> <small> Tutor of physic </small> </p>
                                                 </div>
                                             </div>
                                             <!-- mentor two -->
                                             <div class="d-flex align-items-center ">
-                                                <img src="./Image/profile-photo/04.jpg" width="50px" height="50px"
+                                                <img src="./Image/profile-photo/04.jpg" width="45px" height="45px"
                                                     alt="">
                                                 <div class="ms-2">
-                                                    <h5>Lori Stevens <br> <small> Tutor of physic </small> </h5>
+                                                    <p class="fw-bold m-0">Lori Stevens <br> <small> Tutor of physic </small> </p>
                                                 </div>
                                             </div>
                                             <!-- mentor three -->
                                             <div class="d-flex align-items-center ">
-                                                <img src="./Image/profile-photo/03.jpg" width="50px" height="50px"
+                                                <img src="./Image/profile-photo/03.jpg" width="45px" height="45px"
                                                     alt="">
                                                 <div class="ms-2">
-                                                    <h5>Lori Stevens <br> <small> Tutor of physic </small> </h5>
+                                                    <p class="fw-bold m-0">Lori Stevens <br> <small> Tutor of physic </small> </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -939,9 +941,9 @@
                     </div>
                 </div>
                 <!-- text part in this section and right section-->
-                <div class="col-5">
+                <div class="col-xl-5 col-md-6 col-sm-12 order-lg-2 order-md-1 order-sm-1 order-1">
                     <div class="p-3 border bg-light">
-                        <h1>Some valuable feedback from our students</h1>
+                        <h1 class="fw-bold">Some valuable feedback from our students</h1>
                         <p>Supposing so be resolving breakfast am or perfectly. It drew a hill from me. Valley by oh
                             twenty direct me so. Departure defective arranging rapturous did believe him all had
                             supported. Family months lasted simple set nature vulgar him. Picture for attempt joy
